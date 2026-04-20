@@ -1,0 +1,5 @@
+aws_region           = "us-east-1"
+bucket_prefix        = "assignment3-tfstate"
+roll_number          = "22k-1234"
+ec2_role_name        = "assignment3-ec2-s3-role"
+dynamodb_table_name  = "assignment3-terraform-locks"
