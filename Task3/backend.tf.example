@@ -1,0 +1,10 @@
+terraform {
+  backend "s3" {
+    # Fill these values after bootstrap apply creates the bucket and lock table.
+    # bucket         = "<YOUR_BUCKET_NAME>"
+    # key            = "task3/terraform.tfstate"
+    # region         = "us-east-1"
+    # dynamodb_table = "<YOUR_LOCK_TABLE_NAME>"
+    # encrypt        = true
+  }
+}
