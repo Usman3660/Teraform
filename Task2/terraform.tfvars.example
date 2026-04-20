@@ -1,0 +1,13 @@
+aws_region      = "us-east-1"
+my_ip_cidr      = "203.0.113.10/32"
+instance_type   = "t3.micro"
+ami_id          = ""
+key_name        = "assignment3-task2-key"
+public_key_path = "C:/Users/<your-user>/.ssh/assignment3_task2.pub"
+
+tags = {
+  Project     = "Assignment-3"
+  ManagedBy   = "Terraform"
+  Environment = "lab"
+  Task        = "Task2"
+}
