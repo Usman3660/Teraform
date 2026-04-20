@@ -1,0 +1,8 @@
+aws_region = "us-east-1"
+
+tags = {
+  Project     = "Assignment-3"
+  ManagedBy   = "Terraform"
+  Environment = "lab"
+  Task        = "Task5"
+}
